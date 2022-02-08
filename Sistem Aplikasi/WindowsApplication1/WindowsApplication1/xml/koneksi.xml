@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<koneksi>
+<username>root</username>
+<password></password>
+<server>localhost</server>
+<database>akademik</database>
+</koneksi>

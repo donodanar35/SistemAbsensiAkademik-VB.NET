@@ -1,0 +1,72 @@
+F:\Desktop Danar\semester 8\bsd1\aplikasi\WindowsApplication1\WindowsApplication1\bin\Debug\WindowsApplication1.exe.config
+F:\Desktop Danar\semester 8\bsd1\aplikasi\WindowsApplication1\WindowsApplication1\bin\Debug\WindowsApplication1.exe
+F:\Desktop Danar\semester 8\bsd1\aplikasi\WindowsApplication1\WindowsApplication1\bin\Debug\WindowsApplication1.pdb
+F:\Desktop Danar\semester 8\bsd1\aplikasi\WindowsApplication1\WindowsApplication1\bin\Debug\WindowsApplication1.xml
+F:\Desktop Danar\semester 8\bsd1\aplikasi\WindowsApplication1\WindowsApplication1\bin\Debug\MySql.Data.dll
+F:\Desktop Danar\semester 8\bsd1\aplikasi\WindowsApplication1\WindowsApplication1\obj\Debug\WindowsApplication1.vbprojResolveAssemblyReference.cache
+F:\Desktop Danar\semester 8\bsd1\aplikasi\WindowsApplication1\WindowsApplication1\obj\Debug\WindowsApplication1.Form1.resources
+F:\Desktop Danar\semester 8\bsd1\aplikasi\WindowsApplication1\WindowsApplication1\obj\Debug\WindowsApplication1.home.resources
+F:\Desktop Danar\semester 8\bsd1\aplikasi\WindowsApplication1\WindowsApplication1\obj\Debug\WindowsApplication1.Resources.resources
+F:\Desktop Danar\semester 8\bsd1\aplikasi\WindowsApplication1\WindowsApplication1\obj\Debug\WindowsApplication1.vbproj.GenerateResource.Cache
+F:\Desktop Danar\semester 8\bsd1\aplikasi\WindowsApplication1\WindowsApplication1\obj\Debug\WindowsApplication1.exe
+F:\Desktop Danar\semester 8\bsd1\aplikasi\WindowsApplication1\WindowsApplication1\obj\Debug\WindowsApplication1.xml
+F:\Desktop Danar\semester 8\bsd1\aplikasi\WindowsApplication1\WindowsApplication1\obj\Debug\WindowsApplication1.pdb
+F:\Desktop Danar\semester 8\bsd1\aplikasi\WindowsApplication1\WindowsApplication1\bin\Debug\xml\koneksi.xml
+F:\Desktop Danar\semester 8\bsd1\aplikasi\WindowsApplication1\WindowsApplication1\bin\Debug\xml\koneksi.xsd
+F:\Desktop Danar\semester 8\bsd1\aplikasi\WindowsApplication1\WindowsApplication1\obj\Debug\WindowsApplication1.Cetak.resources
+F:\Desktop Danar\semester 8\bsd1\aplikasi\WindowsApplication1\WindowsApplication1\obj\Debug\WindowsApplication1.Preview.resources
+F:\Desktop Danar\semester 8\bsd1\aplikasi\WindowsApplication1\WindowsApplication1\obj\Debug\WindowsApplication1.absensi_pegawai.resources
+F:\Desktop Danar\semester 8\bsd1\aplikasi\WindowsApplication1\WindowsApplication1\obj\Debug\WindowsApplication1.Absensi_Siswa.resources
+F:\Desktop Danar\semester 8\bsd1\aplikasi\WindowsApplication1\WindowsApplication1\obj\Debug\WindowsApplication1.Detail_Izin.resources
+F:\Desktop Danar\semester 8\bsd1\aplikasi\WindowsApplication1\WindowsApplication1\obj\Debug\WindowsApplication1.jabatan.resources
+F:\Desktop Danar\semester 8\bsd1\aplikasi\WindowsApplication1\WindowsApplication1\obj\Debug\WindowsApplication1.jadwal.resources
+F:\Desktop Danar\semester 8\bsd1\aplikasi\WindowsApplication1\WindowsApplication1\obj\Debug\WindowsApplication1.karyawan.resources
+F:\Desktop Danar\semester 8\bsd1\aplikasi\WindowsApplication1\WindowsApplication1\obj\Debug\WindowsApplication1.konf_user.resources
+F:\Desktop Danar\semester 8\bsd1\aplikasi\WindowsApplication1\WindowsApplication1\obj\Debug\WindowsApplication1.mapel.resources
+F:\Desktop Danar\semester 8\bsd1\aplikasi\WindowsApplication1\WindowsApplication1\obj\Debug\WindowsApplication1.Menjabat.resources
+F:\Desktop Danar\semester 8\bsd1\aplikasi\WindowsApplication1\WindowsApplication1\obj\Debug\WindowsApplication1.Menyetujui_Izin_Pegawai.resources
+F:\Desktop Danar\semester 8\bsd1\aplikasi\WindowsApplication1\WindowsApplication1\obj\Debug\WindowsApplication1.mutasi.resources
+F:\Desktop Danar\semester 8\bsd1\aplikasi\WindowsApplication1\WindowsApplication1\obj\Debug\WindowsApplication1.Pembagian_Kelas.resources
+F:\Desktop Danar\semester 8\bsd1\aplikasi\WindowsApplication1\WindowsApplication1\obj\Debug\WindowsApplication1.Pengajuan_Perizinan_Pegawai.resources
+F:\Desktop Danar\semester 8\bsd1\aplikasi\WindowsApplication1\WindowsApplication1\obj\Debug\WindowsApplication1.rombel.resources
+F:\Desktop Danar\semester 8\bsd1\aplikasi\WindowsApplication1\WindowsApplication1\obj\Debug\WindowsApplication1.Ruang.resources
+F:\Desktop Danar\semester 8\bsd1\aplikasi\WindowsApplication1\WindowsApplication1\obj\Debug\WindowsApplication1.Siswa.resources
+F:\Desktop Danar\semester 8\bsd1\aplikasi\WindowsApplication1\WindowsApplication1\obj\Debug\WindowsApplication1.tahun_ajar.resources
+C:\Users\D\Desktop\WindowsApplication1\WindowsApplication1\bin\Debug\xml\koneksi.xml
+C:\Users\D\Desktop\WindowsApplication1\WindowsApplication1\bin\Debug\xml\koneksi.xsd
+C:\Users\D\Desktop\WindowsApplication1\WindowsApplication1\bin\Debug\WindowsApplication1.exe.config
+C:\Users\D\Desktop\WindowsApplication1\WindowsApplication1\bin\Debug\WindowsApplication1.exe
+C:\Users\D\Desktop\WindowsApplication1\WindowsApplication1\bin\Debug\WindowsApplication1.pdb
+C:\Users\D\Desktop\WindowsApplication1\WindowsApplication1\bin\Debug\WindowsApplication1.xml
+C:\Users\D\Desktop\WindowsApplication1\WindowsApplication1\obj\Debug\WindowsApplication1.absensi_pegawai.resources
+C:\Users\D\Desktop\WindowsApplication1\WindowsApplication1\obj\Debug\WindowsApplication1.Absensi_Siswa.resources
+C:\Users\D\Desktop\WindowsApplication1\WindowsApplication1\obj\Debug\WindowsApplication1.Cetak.resources
+C:\Users\D\Desktop\WindowsApplication1\WindowsApplication1\obj\Debug\WindowsApplication1.Detail_Izin.resources
+C:\Users\D\Desktop\WindowsApplication1\WindowsApplication1\obj\Debug\WindowsApplication1.Form1.resources
+C:\Users\D\Desktop\WindowsApplication1\WindowsApplication1\obj\Debug\WindowsApplication1.History_Absensi_Pegawai.resources
+C:\Users\D\Desktop\WindowsApplication1\WindowsApplication1\obj\Debug\WindowsApplication1.History_Absensi_Siswa.resources
+C:\Users\D\Desktop\WindowsApplication1\WindowsApplication1\obj\Debug\WindowsApplication1.history_jadwa.resources
+C:\Users\D\Desktop\WindowsApplication1\WindowsApplication1\obj\Debug\WindowsApplication1.History_Kelas.resources
+C:\Users\D\Desktop\WindowsApplication1\WindowsApplication1\obj\Debug\WindowsApplication1.home.resources
+C:\Users\D\Desktop\WindowsApplication1\WindowsApplication1\obj\Debug\WindowsApplication1.jabatan.resources
+C:\Users\D\Desktop\WindowsApplication1\WindowsApplication1\obj\Debug\WindowsApplication1.jadwal.resources
+C:\Users\D\Desktop\WindowsApplication1\WindowsApplication1\obj\Debug\WindowsApplication1.karyawan.resources
+C:\Users\D\Desktop\WindowsApplication1\WindowsApplication1\obj\Debug\WindowsApplication1.Konfirmasi_Izin_Pegawai.resources
+C:\Users\D\Desktop\WindowsApplication1\WindowsApplication1\obj\Debug\WindowsApplication1.konf_user.resources
+C:\Users\D\Desktop\WindowsApplication1\WindowsApplication1\obj\Debug\WindowsApplication1.mapel.resources
+C:\Users\D\Desktop\WindowsApplication1\WindowsApplication1\obj\Debug\WindowsApplication1.Menjabat.resources
+C:\Users\D\Desktop\WindowsApplication1\WindowsApplication1\obj\Debug\WindowsApplication1.mutasi.resources
+C:\Users\D\Desktop\WindowsApplication1\WindowsApplication1\obj\Debug\WindowsApplication1.Resources.resources
+C:\Users\D\Desktop\WindowsApplication1\WindowsApplication1\obj\Debug\WindowsApplication1.Pembagian_Kelas.resources
+C:\Users\D\Desktop\WindowsApplication1\WindowsApplication1\obj\Debug\WindowsApplication1.Pengajuan_Perizinan_Pegawai.resources
+C:\Users\D\Desktop\WindowsApplication1\WindowsApplication1\obj\Debug\WindowsApplication1.Preview.resources
+C:\Users\D\Desktop\WindowsApplication1\WindowsApplication1\obj\Debug\WindowsApplication1.rombel.resources
+C:\Users\D\Desktop\WindowsApplication1\WindowsApplication1\obj\Debug\WindowsApplication1.Ruang.resources
+C:\Users\D\Desktop\WindowsApplication1\WindowsApplication1\obj\Debug\WindowsApplication1.Siswa.resources
+C:\Users\D\Desktop\WindowsApplication1\WindowsApplication1\obj\Debug\WindowsApplication1.tahun_ajar.resources
+C:\Users\D\Desktop\WindowsApplication1\WindowsApplication1\obj\Debug\WindowsApplication1.vbproj.GenerateResource.Cache
+C:\Users\D\Desktop\WindowsApplication1\WindowsApplication1\obj\Debug\WindowsApplication1.exe
+C:\Users\D\Desktop\WindowsApplication1\WindowsApplication1\obj\Debug\WindowsApplication1.xml
+C:\Users\D\Desktop\WindowsApplication1\WindowsApplication1\obj\Debug\WindowsApplication1.pdb
+C:\Users\D\Desktop\WindowsApplication1\WindowsApplication1\obj\Debug\WindowsApplication1.vbprojResolveAssemblyReference.cache
+C:\Users\D\Desktop\WindowsApplication1\WindowsApplication1\obj\Debug\WindowsApplication1.Pindah_Kelas.resources

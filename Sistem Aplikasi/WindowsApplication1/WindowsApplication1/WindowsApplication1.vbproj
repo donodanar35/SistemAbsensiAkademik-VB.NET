@@ -1,0 +1,575 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{DD52C9B5-B94F-4748-A748-DD4A5386F728}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>WindowsApplication1.My.MyApplication</StartupObject>
+    <RootNamespace>WindowsApplication1</RootNamespace>
+    <AssemblyName>WindowsApplication1</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>WindowsApplication1.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>WindowsApplication1.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="CrystalDecisions.CrystalReports.Engine, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.ReportSource, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Shared, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Windows.Forms, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="FlashControlV71, Version=1.0.3187.32366, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="MySql.Data">
+      <HintPath>..\..\TokoMaterial_App\MySql.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Threading.Tasks" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="absensi_pegawai.Designer.vb">
+      <DependentUpon>absensi_pegawai.vb</DependentUpon>
+    </Compile>
+    <Compile Include="absensi_pegawai.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="absensi_siswa.Designer.vb">
+      <DependentUpon>absensi_siswa.vb</DependentUpon>
+    </Compile>
+    <Compile Include="absensi_siswa.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Cetak.Designer.vb">
+      <DependentUpon>Cetak.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Cetak.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Detail_Izin.Designer.vb">
+      <DependentUpon>Detail_Izin.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Detail_Izin.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.vb">
+      <DependentUpon>Form1.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="History Absensi Pegawai.Designer.vb">
+      <DependentUpon>History Absensi Pegawai.vb</DependentUpon>
+    </Compile>
+    <Compile Include="History Absensi Pegawai.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="History_Absensi_Siswa.Designer.vb">
+      <DependentUpon>History_Absensi_Siswa.vb</DependentUpon>
+    </Compile>
+    <Compile Include="History_Absensi_Siswa.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="history_jadwa.Designer.vb">
+      <DependentUpon>history_jadwa.vb</DependentUpon>
+    </Compile>
+    <Compile Include="history_jadwa.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="History_Kelas.Designer.vb">
+      <DependentUpon>History_Kelas.vb</DependentUpon>
+    </Compile>
+    <Compile Include="History_Kelas.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="home.Designer.vb">
+      <DependentUpon>home.vb</DependentUpon>
+    </Compile>
+    <Compile Include="home.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="jabatan.Designer.vb">
+      <DependentUpon>jabatan.vb</DependentUpon>
+    </Compile>
+    <Compile Include="jabatan.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="jadwal.Designer.vb">
+      <DependentUpon>jadwal.vb</DependentUpon>
+    </Compile>
+    <Compile Include="jadwal.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="karyawan.Designer.vb">
+      <DependentUpon>karyawan.vb</DependentUpon>
+    </Compile>
+    <Compile Include="karyawan.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Konfirmasi_Izin_Pegawai.Designer.vb">
+      <DependentUpon>Konfirmasi_Izin_Pegawai.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Konfirmasi_Izin_Pegawai.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="konf_user.Designer.vb">
+      <DependentUpon>konf_user.vb</DependentUpon>
+    </Compile>
+    <Compile Include="konf_user.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LapAbsensi_Siswa.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>LapAbsensi_Siswa.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="LapJadwal.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>LapJadwal.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="LapKelas.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>LapKelas.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="LapPersetujuan.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>LapPersetujuan.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="LapSurat.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>LapSurat.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Lap_Absensi_Pegawai.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Lap_Absensi_Pegawai.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="mapel.Designer.vb">
+      <DependentUpon>mapel.vb</DependentUpon>
+    </Compile>
+    <Compile Include="mapel.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Menjabat.Designer.vb">
+      <DependentUpon>Menjabat.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Menjabat.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="mutasi.Designer.vb">
+      <DependentUpon>mutasi.vb</DependentUpon>
+    </Compile>
+    <Compile Include="mutasi.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Pembagian_Kelas.Designer.vb">
+      <DependentUpon>Pembagian_Kelas.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Pembagian_Kelas.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Pengajuan Perizinan Pegawai.Designer.vb">
+      <DependentUpon>Pengajuan Perizinan Pegawai.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Pengajuan Perizinan Pegawai.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Pindah_Kelas.Designer.vb">
+      <DependentUpon>Pindah_Kelas.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Pindah_Kelas.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Preview.Designer.vb">
+      <DependentUpon>Preview.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Preview.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RepAbsensiPegawai.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>RepAbsensiPegawai.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="RepAbsensiSiswa.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>RepAbsensiSiswa.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="RepJadwal.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>RepJadwal.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="RepKelas.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>RepKelas.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="RepPerizinanPegawai.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>RepPerizinanPegawai.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="rombel.Designer.vb">
+      <DependentUpon>rombel.vb</DependentUpon>
+    </Compile>
+    <Compile Include="rombel.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ruang.Designer.vb">
+      <DependentUpon>Ruang.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Ruang.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Siswa.Designer.vb">
+      <DependentUpon>Siswa.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Siswa.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="tahun_ajar.Designer.vb">
+      <DependentUpon>tahun_ajar.vb</DependentUpon>
+    </Compile>
+    <Compile Include="tahun_ajar.vb">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="absensi_pegawai.resx">
+      <DependentUpon>absensi_pegawai.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="absensi_siswa.resx">
+      <DependentUpon>absensi_siswa.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Cetak.resx">
+      <DependentUpon>Cetak.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Detail_Izin.resx">
+      <DependentUpon>Detail_Izin.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="History Absensi Pegawai.resx">
+      <DependentUpon>History Absensi Pegawai.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="History_Absensi_Siswa.resx">
+      <DependentUpon>History_Absensi_Siswa.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="history_jadwa.resx">
+      <DependentUpon>history_jadwa.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="History_Kelas.resx">
+      <DependentUpon>History_Kelas.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="home.resx">
+      <DependentUpon>home.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="jabatan.resx">
+      <DependentUpon>jabatan.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="jadwal.resx">
+      <DependentUpon>jadwal.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="karyawan.resx">
+      <DependentUpon>karyawan.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Konfirmasi_Izin_Pegawai.resx">
+      <DependentUpon>Konfirmasi_Izin_Pegawai.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="konf_user.resx">
+      <DependentUpon>konf_user.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LapAbsensi_Siswa.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>LapAbsensi_Siswa.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LapJadwal.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>LapJadwal.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LapKelas.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>LapKelas.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LapPersetujuan.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>LapPersetujuan.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LapSurat.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>LapSurat.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Lap_Absensi_Pegawai.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>Lap_Absensi_Pegawai.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="mapel.resx">
+      <DependentUpon>mapel.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Menjabat.resx">
+      <DependentUpon>Menjabat.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="mutasi.resx">
+      <DependentUpon>mutasi.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pembagian_Kelas.resx">
+      <DependentUpon>Pembagian_Kelas.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pengajuan Perizinan Pegawai.resx">
+      <DependentUpon>Pengajuan Perizinan Pegawai.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pindah_Kelas.resx">
+      <DependentUpon>Pindah_Kelas.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Preview.resx">
+      <DependentUpon>Preview.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RepAbsensiPegawai.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>RepAbsensiPegawai.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RepAbsensiSiswa.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>RepAbsensiSiswa.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RepJadwal.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>RepJadwal.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RepKelas.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>RepKelas.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RepPerizinanPegawai.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>RepPerizinanPegawai.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="rombel.resx">
+      <DependentUpon>rombel.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ruang.resx">
+      <DependentUpon>Ruang.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Siswa.resx">
+      <DependentUpon>Siswa.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="tahun_ajar.resx">
+      <DependentUpon>tahun_ajar.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="App.config" />
+    <None Include="xml\koneksi.xsd">
+      <SubType>Designer</SubType>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Actions-mail-receive-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\add.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\arrow_refresh.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bg_toko.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cancel.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\clear.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\document_save.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\edit_clear.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\filesaveas - edit.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\filesaveas%281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\find.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\find1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gdm_login_photo - edit.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\if_Up_132635.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\if_Update_132501.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\increase.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\login.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MTS.UNGGULAN PP AMANATUL UMMAH - black white.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\new_doc.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\printer%281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\printer_off.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\refresh%282%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\toolbar_find.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\user_male_add.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\write.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\apply all.png" />
+    <None Include="Resources\apply.png" />
+    <None Include="Resources\agree.png" />
+    <None Include="Resources\Search-File-icon.png" />
+    <None Include="Resources\Student-3-icon.png" />
+    <None Include="Resources\Teacher-male-icon.png" />
+    <None Include="Resources\Search-icon.png" />
+    <None Include="Resources\Folder-Add-icon.png" />
+    <None Include="Resources\Document-Preview-icon.png" />
+    <Content Include="xml\koneksi.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{C0C07587-41A7-46C8-8FBD-3F9C8EBE2DDC}" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
